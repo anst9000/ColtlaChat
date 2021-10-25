@@ -46,12 +46,12 @@ public class Login extends JFrame {
 		textName.setColumns(10);
 		
 		JLabel lblName = new JLabel("Name");
-		lblName.setFont(new Font("Arial", Font.BOLD, 16));
+		lblName.setFont(new Font("Arial", Font.PLAIN, 16));
 		lblName.setBounds(116, 20, 53, 17);
 		contentPane.add(lblName);
 		
 		JLabel lblIPAddress = new JLabel("IP Address");
-		lblIPAddress.setFont(new Font("Arial", Font.BOLD, 16));
+		lblIPAddress.setFont(new Font("Arial", Font.PLAIN, 16));
 		lblIPAddress.setBounds(99, 88, 88, 17);
 		contentPane.add(lblIPAddress);
 		
@@ -62,7 +62,7 @@ public class Login extends JFrame {
 		contentPane.add(textIPAddress);
 		
 		JLabel lblPort = new JLabel("Port");
-		lblPort.setFont(new Font("Arial", Font.BOLD, 16));
+		lblPort.setFont(new Font("Arial", Font.PLAIN, 16));
 		lblPort.setBounds(123, 170, 39, 17);
 		contentPane.add(lblPort);
 		
@@ -92,7 +92,7 @@ public class Login extends JFrame {
 				login(name, address, port);
 			}
 		});
-		btnLogin.setFont(new Font("Arial", Font.BOLD, 16));
+		btnLogin.setFont(new Font("Arial", Font.PLAIN, 16));
 		btnLogin.setBounds(76, 272, 133, 30);
 		contentPane.add(btnLogin);
 	}
